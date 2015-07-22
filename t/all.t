@@ -19,12 +19,12 @@ ok $o, "construction";
 
   my $res;
   {
-   $*IN = String::Stream.new("puccini");
+ #  $*IN = String::Stream.new("puccini");
 
-   $res =  prompt "composer> ";
+ #  $res =  prompt "composer> ";
   } 
 
-  ok $res ~~ "puccini", "input test";
+ # ok $res ~~ "puccini", "input test";
   
 
 
